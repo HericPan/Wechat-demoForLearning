@@ -1,0 +1,22 @@
+.functions {
+  
+  display: flex;
+  border: 5rpx solid #8c8c8c;
+  padding: 25rpx;
+  margin-top: 30rpx;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.functions .smalli{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.functions image{
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 50rpx;
+}
+

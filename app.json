@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/doomfist/doomfist",
+    "pages/oldman/oldman",
+    "pages/yinyan/yinyan",
+    "pages/canvas/canvas",
+    "pages/logs/logs"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "受苦模拟器",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [
+    {
+      "pagePath": "pages/canvas/canvas",
+      "text": "Canvas",
+      "iconPath": "icon/_p1.png",
+      "selectedIconPath": "icon/+p1.png"
+    },
+    {
+      "pagePath": "pages/yinyan/yinyan",
+      "text": "阴阳人",
+      "iconPath": "icon/_p2.png",
+      "selectedIconPath": "icon/+p2.png"
+    },
+    {
+      "pagePath": "pages/oldman/oldman",
+      "text": "地铁老人",
+      "iconPath": "icon/_p3.png",
+      "selectedIconPath": "icon/+p3.png"
+    },
+    {
+      "pagePath": "pages/doomfist/doomfist",
+      "text": "末日铁拳",
+      "iconPath": "icon/_p4.png",
+      "selectedIconPath": "icon/+p4.png"
+    }
+  ],
+  "color": "#0094ff",
+  "selectedColor": "#ff0000"
+  },
+  
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

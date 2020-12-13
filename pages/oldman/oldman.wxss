@@ -1,0 +1,68 @@
+.entire{
+  background: #cfcfcfcf;
+  padding-top: 10rpx;
+  padding-left:10rpx;
+  padding-right: 10rpx;
+}
+
+.functions{
+  background: white;
+  margin-bottom: 10rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 50rpx;
+  padding-bottom: 50rpx;
+}
+
+.functions image{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 75rpx;
+}
+
+.functions .item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30rpx;
+}
+
+.messagebox .amessage{
+  background: white;
+  padding: 10rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.messagebox .amessage .left_icon image{
+  width:100rpx;
+  height:100rpx;
+  border-right: 1rpx solid grey;
+  margin-right: 20rpx;
+  padding: 20rpx;
+}
+
+.messagebox .amessage .right_m{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.messagebox .amessage .right_m .general{
+  display: flex;
+  font-size: 40rpx;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.messagebox .amessage .right_m .general .mtitle{
+  font-weight: 600;
+}
+
+.messagebox .amessage .right_m .general .time{
+  color: #8c8c8c;
+  font-size: 30rpx;
+}

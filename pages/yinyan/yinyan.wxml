@@ -1,0 +1,33 @@
+<view class="whole">
+  <view class="singleton">
+      <view class="title">今日好东西</view>
+      <view class="tips">
+        <view>时间：2020-12-10</view>
+        <view>阅读数量：2333</view>
+      </view>
+      <image class="big" src="/src/static/p1.jpg"/>
+      <view class="series">
+        <image src="/src/static/p1.jpg"/>
+        <image src="/src/static/p1.jpg"/>
+        <image src="/src/static/p1.jpg"/>
+        <image src="/src/static/p1.jpg"/>
+      </view>
+  </view>
+</view>
+
+<view class="whole">
+  <view class="singleton">
+      <view class="title">今日怪东西</view>
+      <view class="tips">
+        <view>时间：2020-12-11</view>
+        <view>阅读数量：2333</view>
+      </view>
+      <image class="big" src="/src/static/p2.jpg"/>
+      <view class="series">
+        <image src="/src/static/p2.jpg"/>
+        <image src="/src/static/p2.jpg"/>
+        <image src="/src/static/p2.jpg"/>
+        <image src="/src/static/p2.jpg"/>
+      </view>
+  </view>
+</view>

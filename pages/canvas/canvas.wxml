@@ -1,0 +1,20 @@
+<!--pages/canvas/canvas.wxml-->
+<view class="functions">
+  <view class="smalli">
+    <image src="/icon/+p1.png"/>
+    <view>作业</view>
+  </view>
+  <view class="smalli">
+    <image src="/icon/+p1.png"/>
+    <view>消息</view>
+  </view>
+  <view class="smalli">
+    <image src="/icon/+p1.png"/>
+    <view>小测</view>
+  </view>
+  <view class="smalli">
+    <image src="/icon/+p1.png"/>
+    <view>分数</view>
+  </view>
+  
+</view>
