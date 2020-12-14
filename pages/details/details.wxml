@@ -1,0 +1,4 @@
+<!--pages/details/details.wxml-->
+<view>
+  this is detail page for {{id}}
+</view>

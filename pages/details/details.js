@@ -1,4 +1,4 @@
-// pages/yinyan/yinyan.js
+// pages/details/details.js
 Page({
 
   /**
@@ -8,18 +8,11 @@ Page({
 
   },
 
-  toRedirect: function (e) {
-    var nid = e.currentTarget.dataset.nid; // 获得nid数据
-      wx.navigateTo({
-        url: '/pages/details/details?id='+nid,
-      });
-  },
-
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+      this.setData({id: options.id});
   },
 
   /**

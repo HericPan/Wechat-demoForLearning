@@ -1,4 +1,4 @@
-// pages/yinyan/yinyan.js
+// pages/publish/publish.js
 Page({
 
   /**
@@ -6,13 +6,6 @@ Page({
    */
   data: {
 
-  },
-
-  toRedirect: function (e) {
-    var nid = e.currentTarget.dataset.nid; // 获得nid数据
-      wx.navigateTo({
-        url: '/pages/details/details?id='+nid,
-      });
   },
 
   /**

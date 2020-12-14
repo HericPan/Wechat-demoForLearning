@@ -4,8 +4,9 @@
     "pages/oldman/oldman",
     "pages/yinyan/yinyan",
     "pages/canvas/canvas",
-    "pages/logs/logs"
-    
+    "pages/logs/logs",
+    "pages/publish/publish",
+    "pages/details/details"
   ],
   "window":{
     "backgroundTextStyle":"dark",
@@ -27,6 +28,12 @@
       "text": "阴阳人",
       "iconPath": "icon/_p2.png",
       "selectedIconPath": "icon/+p2.png"
+    },
+    {
+      "pagePath": "pages/publish/publish",
+      "text": "发布",
+      "iconPath": "icon/_p1.png",
+      "selectedIconPath": "icon/+p1.png"
     },
     {
       "pagePath": "pages/oldman/oldman",
