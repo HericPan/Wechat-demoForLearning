@@ -5,9 +5,27 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    locString: "点击选择位置",
+    currentImage: "/src/static/p4.jpg"
   },
 
+  locationC: function(){
+    var that= this;
+    wx.chooseLocation({
+      success: function(res){
+        that.setData({locString:res.address});
+      }
+    })
+  },
+
+  getImage: function(){
+    var that = this;
+    wx.chooseImage({
+      success: function(res){
+        that.setData({currentImage: res.tempFilePaths});
+      }
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

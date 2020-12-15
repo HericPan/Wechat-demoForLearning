@@ -1,2 +1,31 @@
 <!--pages/publish/publish.wxml-->
-<text>pages/publish/publish.wxml</text>
+<view class="extra">
+  <button bindtap="getImage">
+    图片
+  </button>
+  <button>
+    视频
+  </button>
+</view>
+
+
+
+<view class="textin">
+<textarea placeholder="这一刻，想说点什么">
+</textarea>
+</view>
+
+<view class="loca" bindtap="locationC">
+  {{locString}}
+</view>
+
+<image src="{{currentImage}}">
+</image>
+
+<view class="bottom">
+  <view class="inner">
+    <button class="publishb">
+    发布
+    </button>
+  </view>
+</view>
