@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    currentImage: "/src/static/p4.jpg"
   },
 
   /**
@@ -13,6 +13,12 @@ Page({
    */
   onLoad: function (options) {
       this.setData({id: options.id});
+      var id = options.id;
+      if(id=="001"){
+        this.setData({currentImage: "/src/static/p1.jpg"})
+      }else if(id=="002"){
+        this.setData({currentImage: "/src/static/p2.jpg"})
+      };
   },
 
   /**

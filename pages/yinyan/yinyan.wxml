@@ -1,6 +1,6 @@
 <view class="whole" bindtap="toRedirect" data-nid="001">
   <view class="singleton">
-      <view class="title">今日好东西</view>
+      <view class="title">好东西</view>
       <view class="tips">
         <view>时间：2020-12-10</view>
         <view>阅读数量：2333</view>
@@ -17,7 +17,7 @@
 
 <view class="whole" bindtap="toRedirect" data-nid="002">
   <view class="singleton">
-      <view class="title">今日怪东西</view>
+      <view class="title">怪东西</view>
       <view class="tips">
         <view>时间：2020-12-11</view>
         <view>阅读数量：2333</view>

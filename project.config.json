@@ -64,6 +64,13 @@
         {
           "name": "pages/yinyan/yinyan",
           "pathName": "pages/yinyan/yinyan",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/publish/publish",
+          "pathName": "pages/publish/publish",
+          "query": "",
           "scene": null
         }
       ]

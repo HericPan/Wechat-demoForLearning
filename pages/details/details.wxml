@@ -1,4 +1,46 @@
 <!--pages/details/details.wxml-->
-<view>
-  this is detail page for {{id}}
+<view class="upperInfo">
+  <image src="/src/static/p4.jpg" mode="widthFix">
+  </image>
+  <view class="description">
+    <view class="upper">
+      <view class="upperleft">
+        <view class="title">
+          详细信息：标题
+        </view>
+        <view class="tips">
+          已结束：2020年01月03日 23:22
+        </view>
+      </view>
+      <view class="upperright">
+        <view>
+          分享
+        </view>
+      </view>
+    </view>
+    <view class="lower">
+      <view>
+        拍品：16件
+      </view>
+      <view>
+        出价：100次
+      </view>
+      <view>
+        围观：5211次
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="bottom">
+  <view class="bdetail">
+    本期拍品
+  </view>
+  <view class="bupper">
+    <image src="{{currentImage}}" style="height:300rpx; width:300rpx">
+    </image>
+    <view class="right">
+      塞尔达传说：荒野之息卡带
+    </view>
+  </view>
 </view>

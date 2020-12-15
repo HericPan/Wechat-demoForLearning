@@ -1,1 +1,84 @@
 /* pages/details/details.wxss */
+
+.upperInfo{
+  display: flex;
+  flex-direction: column;
+  border: 1rpx black solid;
+}
+
+.upperInfo image{
+  padding: 10rpx;
+  width: 730rpx;
+}
+
+.upperInfo .description{
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx;
+ 
+}
+
+.upperInfo .description .upper{
+  display: flex;
+  flex-direction: row;
+}
+
+.upperInfo .description .upperleft{
+  width: 550rpx;
+  padding: 20rpx;
+}
+
+
+.upperInfo .description .upper .upperleft .title{
+  font-weight: 600;
+  font-size: 50rpx;
+}
+
+.upperInfo .description .upper .upperleft .tips{
+  font-weight: 300;
+  font-size: 30rpx;
+  margin-top: 30rpx;
+}
+
+.upperInfo .description .upper .upperright{
+  display: flex;
+  flex-direction: column;
+  width: 150rpx;
+  margin-left: 10rpx;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 3rpx black solid;
+}
+
+.upperInfo .description .lower{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 30rpx;
+  font-weight: 200;
+  color: grey;
+  margin-top: 10rpx;
+  padding: 20rpx
+}
+
+.bottom{
+  margin-top: 20rpx;
+  border: 1rpx black solid
+}
+
+.bottom .bdetail{
+  margin: 10rpx;
+  margin-bottom: 20rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 2rpx grey solid;
+}
+.bottom .bupper{
+  display: flex;
+  padding: 20rpx;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bottom .bupper .right{
+  margin: 20rpx;
+}
