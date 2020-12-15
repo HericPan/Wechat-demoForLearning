@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    dataDict: {a:2, b:3, c:4}
   },
 
   toRedirect: function (e) {

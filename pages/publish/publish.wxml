@@ -15,12 +15,24 @@
 </textarea>
 </view>
 
+
 <view class="loca" bindtap="locationC">
-  {{locString}}
+  {{locString}}, 用户名： {{userName}}
 </view>
 
-<image src="{{currentImage}}">
+<button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">
+  获取用户信息
+</button>
+
+
+<image src="{{currentImage}}" class="haha">
 </image>
+
+
+
+<view>
+  用户名：{{userName}}
+</view>
 
 <view class="bottom">
   <view class="inner">

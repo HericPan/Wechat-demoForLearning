@@ -31,3 +31,7 @@
       </view>
   </view>
 </view>
+
+<view wx:for="{{dataDict}}" wx:key="index">
+  {{index}} - {{item}}
+</view>

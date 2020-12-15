@@ -6,7 +6,8 @@ Page({
    */
   data: {
     locString: "点击选择位置",
-    currentImage: "/src/static/p4.jpg"
+    currentImage: "/src/static/p4.jpg",
+    userName: "未加载"
   },
 
   locationC: function(){
@@ -21,8 +22,21 @@ Page({
   getImage: function(){
     var that = this;
     wx.chooseImage({
+      count:9,
+      sizeType: ['original', 'compressed'],
+      sourceType: ['album', 'camera'],
       success: function(res){
         that.setData({currentImage: res.tempFilePaths});
+      }
+    })
+  },
+
+  bindGetUserInfo: function(){
+    var that = this;
+    wx.getUserInfo({
+      success: function(res){
+        console.log(res);
+        that.setData({userName: res.userInfo.nickName})
       }
     })
   },
